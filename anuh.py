@@ -1,0 +1,36 @@
+#area of circle using math function
+import math
+r=float(input("enter radius:"))
+area=math.pi*r*r
+print("area of circle:",area)
+
+#area of regular polygon 
+import math
+n = float(input("number of sides: "))
+s= float(input("length of a side: "))
+p = n * (s** 2) / (4 * math.tan(math.pi / n))
+print("The area of the polygon is: ",p)
+
+#suffle of list
+import random
+list11= [100,1,2,3,30,40,"hai","hello"]
+random.shuffle(list11)
+print(list11)
+
+#generating random no.s 
+import random
+rnum = random.randrange(1, 110000,50)
+print("Random integer: ", rnum)
+
+#program using math module 
+import math
+print(math.sin(math.pi/3)) 
+print(math.cos(math.pi)) 
+print(math.tan(math.pi/2)) 
+print(math.sin(0.8660254037844386))
+print(math.pow(5, 8))
+print(math.sqrt(400))
+print(math.exp(5))
+print(math.log2(1024))
+print(math.log10(1024))
+print(math.floor(23.56),math.ceil(23.56))
