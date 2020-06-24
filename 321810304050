@@ -11,6 +11,13 @@ s= float(input("length of a side: "))
 p = n * (s** 2) / (4 * math.tan(math.pi / n))
 print("The area of the polygon is: ",p)
 
+#area of segment of a circle
+r=int(input("enter a radius"))
+from math import pi
+x=float(input("angle"))
+area=(pi*r**2)*(x/360)
+print("area of segment of circle",area)
+
 #suffle of list
 import random
 list11= [100,1,2,3,30,40,"hai","hello"]
